@@ -1,0 +1,62 @@
+# Node dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Metro & React Native Cache
+.metro-health-check*
+metro-cache/
+.tmp/
+*.log
+
+# Android Build Outputs & Cache
+android/app/build/
+android/.gradle/
+android/build/
+android/app/src/main/assets/index.android.bundle
+*.apk
+*.aab
+*.dex
+
+# Keystore files (Keep debug keystore if needed, exclude production)
+*.jks
+*.keystore
+!android/app/debug.keystore
+
+# iOS Build Outputs & Cache
+ios/build/
+ios/Pods/
+ios/DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcworkspace
+!default.xcworkspace
+
+# IDE / Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo

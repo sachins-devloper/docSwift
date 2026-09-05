@@ -1,0 +1,9 @@
+export enum ConversionStatus {
+  PENDING = 'PENDING',
+  UPLOADING = 'UPLOADING',
+  QUEUED = 'QUEUED',
+  PROCESSING = 'PROCESSING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+  EXPIRED = 'EXPIRED',
+}
